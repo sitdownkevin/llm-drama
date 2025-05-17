@@ -14,7 +14,7 @@ async def main():
     result = await llm.ainvoke(prompt_scene_change)
     print(result)
     
-    with open('export/scene_change.md', 'w') as f:
+    with open('export/scene_change.xml', 'w') as f:
         f.write(result.content)
 
 
