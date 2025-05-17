@@ -9,6 +9,8 @@
         <constrain>不要产生幻觉</constrain>
         <constrain>生成的剧本约1000字</constrain>
         <constrain>返回的内容用script标签包裹</constrain>
+        <constrain>`scene_before`是上一个场景，`scene_after`是下一个场景。</constrain>
+        <constrain>`scene_before`和`scene_after`的场景是连续的，不要产生断层。</constrain>
     </constrains>
 </background>
 
